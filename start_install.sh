@@ -76,7 +76,7 @@ systemctl restart sshd
 #**************************************************************************************
 fun_reboot()
 {
-read  -p "DLY VSTYPLENIA (y/n)"   ans_restart
+read  -p " Perezagruzit' server dlja vstuplenija izmenenij ? [y/n]"   ans_restart
   if [ $ans_restart = "y" -o $ans_restart = "Y" -o $ans_restart = "yes" -o $ans_restart = "Yes" -o $ans_restart = "YES" -o $ans_restart = "ye" -o $ans_restart = "Ye" -o $ans_restart = "YE" ]
     then
       reboot 
