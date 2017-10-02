@@ -4,7 +4,7 @@ fun_start()
 {
 apt-get update
 apt-get upgrade
-apt-get install -y mc nano curl wget tree zip htop 
+apt-get install -y mc nano curl wget tree zip htop aptitude
 }
 
 #******************************************************************************
